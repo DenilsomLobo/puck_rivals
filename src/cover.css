@@ -1,0 +1,20 @@
+/* A capa tem seu próprio título central; os textos do menu ficam abaixo da arte. */
+.hero { aspect-ratio: auto; min-height: 0; }
+.hero .cover { position: static; display: block; width: 100%; height: auto; object-fit: contain; }
+.hero .hero-shade, .hero .hero-corner { display: none; }
+.hero .hero-copy {
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;
+  gap: 18px 28px; max-width: none; padding: 22px 28px;
+  background: linear-gradient(110deg, #12172b, #17142b);
+  border-top: 1px solid #8567b844;
+}
+.hero .hero-copy .pill { display: none; }
+.hero .hero-copy h1 { font-size: 27px; line-height: 1.15; margin: 0; }
+.hero .hero-copy p { font-size: 12px; margin: 0; }
+.hero .hero-link { margin: 0; }
+@media (max-width: 720px) {
+  .hero .hero-copy { padding: 20px; gap: 15px; }
+  .hero .hero-copy h1 { font-size: 23px; }
+  .hero .hero-copy p { font-size: 11px; }
+  .hero .hero-link { font-size: 9px; }
+}

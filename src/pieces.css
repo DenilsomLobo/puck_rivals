@@ -1,0 +1,4 @@
+/* A identificação dos discos permanece igual em todos os temas. */
+body[data-mode="sling"] #match { --accent: #49ceff; --pink: #ff7769; }
+.mini-pieces.hockey img:first-child { display: block; width: 108px; height: 108px; }
+.mini-pieces.hockey img:last-child { width: 40px; height: 40px; margin-left: -12px; margin-top: 65px; }
